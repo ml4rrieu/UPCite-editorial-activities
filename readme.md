@@ -16,6 +16,6 @@ In the context of a new publishing platform (opus.u-paris.fr), one of the object
 <br />
 
 
-[![mapping journals, org. scientific, disciplines and OA model](./produce-img/mapping-learned-societies.png)(https://ml4rrieu.github.io/slides/2022-UPCite-editorial-activities.html)
+[![mapping journals, org. scientific, disciplines and OA model](./produce-img/mapping-learned-societies.png)](https://ml4rrieu.github.io/slides/2022-UPCite-editorial-activities.html)
 
 

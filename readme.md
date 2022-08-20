@@ -7,7 +7,7 @@ In the context of a new publishing platform (opus.u-paris.fr), one of the object
 <br />
 <br />
 
-* The method (based on [OpenEditors.ooir.org](https://openeditors.ooir.org/)) and the results are shown on [these slides TBA]()
+* The method (based on [OpenEditors.ooir.org](https://openeditors.ooir.org/)) and the results are shown online, see [2022-UPCite-editorial-activities](https://ml4rrieu.github.io/slides/2022-UPCite-editorial-activities.html)
 
 * Download the data [2022-02-upcite-editorial-activities-data.csv](./2022-02-upcite-editorial-activities-data.csv)
 

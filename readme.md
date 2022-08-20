@@ -12,3 +12,6 @@ In the context of a new publishing platform (opus.u-paris.fr), one of the object
 * Download the data [2022-02-upcite-editorial-activities-data.csv](./2022-02-upcite-editorial-activities-data.csv)
 
 
+![mapping journals, org. scientific, disciplines and OA model](./produce-img/mapping-learned-societies.png)
+
+

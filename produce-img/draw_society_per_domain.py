@@ -2,7 +2,7 @@ import pandas as pd, numpy as np
 import matplotlib, matplotlib.pyplot  as plt
 import my_functions
 
-df_raw = pd.read_csv("2022-02-carto-activite-editoriale-univ-paris-cite-data.csv")
+df_raw = pd.read_csv("../2023-01-upcite-editorial-activities-data.csv")
 
 # ________________0____________ selection du corpus
 

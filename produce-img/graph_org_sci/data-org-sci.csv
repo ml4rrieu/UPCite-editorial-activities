@@ -36,7 +36,7 @@ True,HSS,1.0,Subscription,,OpenEdition,association,Economie rurale
 False,HSS,1.0,Diamond,,OpenEdition,laboratoire,"Amnis, Revue d’études des sociétés et cultures contemporaines Europe/Amérique"
 True,HSS,3.0,Diamond,,OpenEdition,association,Anthropologie & Santé
 False,HSS,1.0,Diamond,,OpenEdition,laboratoire,"Apparence(s), histoire et culture du paraître"
-False,HSS,1.0,Diamond,,OpenEdition,laboratoire,Cahiers de l'URMIS
+False,HSS,1.0,Diamond,,OpenEdition,laboratoire,Appartenances & Altérités
 False,HSS,2.0,Diamond,,OpenEdition,laboratoire,Carnets de géographes
 True,HSS,2.0,Diamond,,OpenEdition,association,Cognitextes
 True,HSS,1.0,Diamond,,OpenEdition,laboratoire,Continents Manuscrits
@@ -62,7 +62,7 @@ False,HSS,1.0,Hybride,2297.0,Brill,association,Erasmus Studies
 False,HSS,1.0,Subscription,,SAGE,laboratoire,Cahiers Élisabéthains: A Journal of English Renaissance Studies
 False,Health,1.0,Gold APC,1374.0,Elsevier,ministere,Journal of Infection and Public Health
 False,Health,1.0,Gold APC,2931.0,Elsevier,association,Virology
-False,Health,1.0,Hybride,3829.0,Elsevier,organisation,International Journal of Food Microbiology
+False,Health,1.0,Hybride,3829.0,Elsevier,association,International Journal of Food Microbiology
 False,Health,1.0,Hybride,2510.0,Elsevier,association,Journal of Immunological Methods
 True,HSS,2.0,Subscription,,Cairn,association,"Revue interdisciplinaire sur le management, l'humanisme et l'entreprise"
 False,HSS,3.0,Subscription,,Cairn,laboratoire,"Travail, genre et sociétés"
@@ -88,3 +88,4 @@ False,Health,3.0,Hybride,2896.0,Elsevier,association,Kidney International
 False,ST,1.0,Hybride,2289.0,Elsevier,association,Stochastic Processes and their Applications
 False,Health,1.0,Hybride,2580.0,Elsevier,association,Value in Health
 False,Health,1.0,Hybride,2716.0,Elsevier,association,JACC: Cardiovascular Interventions
+True,HSS,7.0,Diamond,,,laboratoire,Adjectif : analyses et recherches sur les TICE

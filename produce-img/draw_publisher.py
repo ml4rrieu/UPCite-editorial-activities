@@ -2,7 +2,7 @@ import pandas as pd, matplotlib, matplotlib.pyplot  as plt
 import my_functions
 
 
-df_raw = pd.read_csv("2022-02-carto-activite-editoriale-univ-paris-cite-data.csv")
+df_raw = pd.read_csv("../2023-01-upcite-editorial-activities-data.csv")
 print(df_raw.shape)
 
 
@@ -27,7 +27,7 @@ df.loc[:, "pub_2"]= df["pub_2"].str.strip()
 df_publisher = df["pub_1"].value_counts().rename_axis('publishers').reset_index(name='counts')
 
 ## ______0______ produire graphique
-fig, (ax) = plt.subplots(figsize=(10, 7), dpi=100, facecolor='w', edgecolor='k')
+fig, (ax) = plt.subplots(figsize=(15, 11), dpi=100, facecolor='w', edgecolor='k')
 ax.bar(df_publisher.publishers, df_publisher.counts, color = "#2272b4")
 
 

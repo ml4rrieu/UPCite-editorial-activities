@@ -8,7 +8,7 @@ sns.set_theme(style = "ticks", color_codes = True)
 tips = sns.load_dataset("tips")
 #print(type(sns))
 
-df_raw = pd.read_csv("2022-02-carto-activite-editoriale-univ-paris-cite-data.csv")
+df_raw = pd.read_csv("../2023-01-upcite-editorial-activities-data.csv")
 
 
 # ______0______ selection du corpus
@@ -35,7 +35,7 @@ df.replace("Delayed OA", np.nan, inplace = True)
 rel = sns.catplot(x = "main_subject", 
     y = "APC \nmontant\n€", 
     hue="model_eco",
-    height = 7,
+    height = 8,
     data = df, 
     legend = False,
     palette = sns.color_palette(['#94D2BD', '#255770'])

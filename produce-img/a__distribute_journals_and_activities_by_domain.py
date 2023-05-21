@@ -91,7 +91,7 @@ ax.set_xticklabels(df_hist.main_subject.tolist(), fontsize = 16)
 
 # legende
 ax.legend(loc = "upper left", bbox_to_anchor=(0.65, 0.95),  fontsize = 15, borderaxespad =1.7)
-plt.title("Repartition of editorial activities by type and domain", fontsize = 20, x = 0.5, y = 1.05, alpha = 0.6)
+plt.title("Distribution of editorial activities by type and domain", fontsize = 20, x = 0.5, y = 1.05, alpha = 0.6)
 plt.suptitle("n = " + str(df_hist.nb_journal.sum()), x = 0.5, y = 0.92,  alpha = 0.6)
 plt.savefig("hist-activities.png")
 # plt.show()

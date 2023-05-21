@@ -12,36 +12,36 @@ print( df["Autres liens\navec UPC"].value_counts())
 
 ## ________1___________ graph pie nb journals by domain
 
-# # répartir les revues par domaines, renommer la colonne de sortie "amount"
-# df_pie = df["main_subject"].value_counts().to_frame('amount')
-# print(df_pie)
+# répartir les revues par domaines, renommer la colonne de sortie "amount"
+df_pie = df["main_subject"].value_counts().to_frame('amount')
+print(df_pie)
 
-# def pct_n_val(x):
-#     """
-#     affiche les pourcentages correspondant pour le graphique pie
-#     """
-#     return '{:.0f}%\n({:.0f})'.format(x, df_pie.amount.sum() * x / 100)
+def pct_n_val(x):
+    """
+    affiche les pourcentages correspondant pour le graphique pie
+    """
+    return '{:.0f}%\n({:.0f})'.format(x, df_pie.amount.sum() * x / 100)
 
-# fig1, ax1 = plt.subplots(figsize=(10, 7)) 
-# _, _, autopcts = ax1.pie(
-#     df_pie.amount,
-#     labels = df_pie.index,
-#     explode = (0.02, 0.02, 0.02), 
-#     autopct = pct_n_val,
-#     shadow = False,
-#     startangle=40, 
-#     colors = ['#47B39C', '#EC6B56', '#FFC154'],
-#     textprops={'fontsize': 14},
-#     labeldistance = 1.2
-#     )
+fig1, ax1 = plt.subplots(figsize=(10, 7)) 
+_, _, autopcts = ax1.pie(
+    df_pie.amount,
+    labels = df_pie.index,
+    explode = (0.02, 0.02, 0.02), 
+    autopct = pct_n_val,
+    shadow = False,
+    startangle=40, 
+    colors = ['#47B39C', '#EC6B56', '#FFC154'],
+    textprops={'fontsize': 14},
+    labeldistance = 1.2
+    )
 
-# ## redefinition des autopct afin de modifier indépendamment leur font et celle des labels
-# plt.setp(autopcts, **{'color':'black', 'fontsize':10})
+## redefinition des autopct afin de modifier indépendamment leur font et celle des labels
+plt.setp(autopcts, **{'color':'black', 'fontsize':10})
 
 
-# plt.title('Amount of journals by domain', fontsize = 20, x = 0.5, y = 1.08, alpha = 0.6)
-# plt.suptitle("n = " + str(df_pie.amount.sum()), x = 0.5, y = 0.94,  alpha = 0.6)
-# plt.savefig("pie-journals-by-domain.png")
+plt.title('Amount of journals by domain', fontsize = 20, x = 0.5, y = 1.08, alpha = 0.6)
+plt.suptitle("n = " + str(df_pie.amount.sum()), x = 0.5, y = 0.94,  alpha = 0.6)
+plt.savefig("pie-journals-by-domain.png")
 
 
 

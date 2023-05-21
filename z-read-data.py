@@ -1,13 +1,9 @@
 import pandas as pd
-import my_functions
 
 df_raw = pd.read_csv("2023-05-upcite-editorial-activities-data.csv")
 
-# for col in df_raw.columns : 
-#     print(col, '\n')
-
-
-df_raw["reviewer_only"] = df_raw.apply(lambda row : my_functions.deduce_reviewer_only(row), axis = 1)
+# print(df_raw.columns)
+print(" nb of journals", "")
 
 # selection des revues : en activité et où le reviewing n'est pas la seule activités éditoriales
 mask = (df_raw["si inactif\ndate\ndernier \nnum"].isna()) & (~df_raw["reviewer_only"]) 

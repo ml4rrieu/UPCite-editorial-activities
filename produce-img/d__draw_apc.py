@@ -3,23 +3,16 @@ import matplotlib.pyplot as plt
 import pandas as pd, numpy as np
 import my_functions
 
+
+## ____configure model
 sns.set_theme(style = "ticks", color_codes = True)
 
 tips = sns.load_dataset("tips")
 #print(type(sns))
 
-df_raw = pd.read_csv("../2023-01-upcite-editorial-activities-data.csv")
-
-
-# ______0______ selection du corpus
-
-df_raw["reviewer_only"] = df_raw.apply(lambda row : my_functions.deduce_reviewer_only(row), axis = 1)
-
-# selection des revues : en activité et où le reviewing n'est pas la seule activités éditoriales
-mask = (df_raw["si inactif\ndate\ndernier \nnum"].isna()) & (~df_raw["reviewer_only"]) 
-df = df_raw[mask].copy()
-
-
+## ____load corpus
+df = my_functions.load_corpus()
+# print("columns", df.columns)
 
 # retrait des valeurs de modele_co Diamond & Subscription
 df.replace("Subscription", np.nan, inplace = True)

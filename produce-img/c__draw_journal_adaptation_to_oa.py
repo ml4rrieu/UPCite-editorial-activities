@@ -2,17 +2,11 @@ import pandas as pd, numpy as np
 import matplotlib, matplotlib.pyplot  as plt
 import my_functions
 
-df_raw = pd.read_csv("../2023-01-upcite-editorial-activities-data.csv")
+df = my_functions.load_corpus()
+# print("columns", df.columns)
 
 
-# ______0______ selection du corpus
-
-df_raw["reviewer_only"] = df_raw.apply(lambda row : my_functions.deduce_reviewer_only(row), axis = 1)
-
-# selection des revues : en activité et où le reviewing n'est pas la seule activités éditoriales
-mask = (df_raw["si inactif\ndate\ndernier \nnum"].isna()) & (~df_raw["reviewer_only"]) 
-df = df_raw[mask].copy()
-
+## _____________n_________ preparer les données
 
 ## simplifier la classification des modèles : delayed OA = subscription
 df.replace("Delayed OA", "Subscription (delayed OA)", inplace = True)
@@ -63,5 +57,5 @@ plt.legend(
     [handles[idx] for idx in order], [labels[idx] for idx in order],
     frameon = True, markerscale = 1, fontsize = 12,  bbox_to_anchor=(0.5, 0.6) )
 
-plt.title("Journals adaptation to open access by domain", fontsize = 20, x = 0.5, y = 1.05, alpha = 0.6)
+plt.title("Journals transition to open access by domain", fontsize = 20, x = 0.5, y = 1.05, alpha = 0.6)
 plt.savefig("hist-journal-oa-model-domain.png")

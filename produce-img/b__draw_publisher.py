@@ -2,18 +2,8 @@ import pandas as pd, matplotlib, matplotlib.pyplot  as plt
 import my_functions
 
 
-df_raw = pd.read_csv("../2023-01-upcite-editorial-activities-data.csv")
-print(df_raw.shape)
-
-
-# ______0______ selection du corpus
-
-df_raw["reviewer_only"] = df_raw.apply(lambda row : my_functions.deduce_reviewer_only(row), axis = 1)
-
-# selection des revues : en activité et où le reviewing n'est pas la seule activités éditoriales
-mask = (df_raw["si inactif\ndate\ndernier \nnum"].isna()) & (~df_raw["reviewer_only"]) 
-df = df_raw[mask].copy()
-
+df = my_functions.load_corpus()
+# print("columns", df.columns)
 
 # ______0______ preparer les données
 
@@ -23,11 +13,16 @@ df[["pub_1", "pub_2"]] = df["Publieurs\n/Plateformes"].str.split(pat = ";", expa
 df.loc[:, "pub_1"]= df["pub_1"].str.strip()
 df.loc[:, "pub_2"]= df["pub_2"].str.strip()
 
+# print(df["pub_1"].value_counts())
+# print(len(df["pub_1"].value_counts()))
+
 # calcul nb de revues par publisher
 df_publisher = df["pub_1"].value_counts().rename_axis('publishers').reset_index(name='counts')
 
+
 ## ______0______ produire graphique
-fig, (ax) = plt.subplots(figsize=(15, 11), dpi=100, facecolor='w', edgecolor='k')
+fig, (ax) = plt.subplots(figsize=(15, 11), dpi = 100, facecolor='w', edgecolor='k')
+
 ax.bar(df_publisher.publishers, df_publisher.counts, color = "#2272b4")
 
 

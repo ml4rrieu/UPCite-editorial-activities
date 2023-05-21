@@ -1,91 +1,90 @@
-"editor
-in
-chief",main_subject,"nb 
+main_subject,"nb 
 personne",model_eco,"APC 
 montant
 €",publisher_1,org_type,title host
-False,Health,3.0,Subscription,,Cairn,association,Bulletin de psychologie
-False,HSS,1.0,Subscription,,Cairn,association,Cliopsy
-False,HSS,1.0,Subscription,,Cairn,association,Les Etudes sociales
-True,HSS,3.0,Subscription,,Cairn,association,Migrations Société
-False,Health,1.0,Subscription,,Cairn,association,Psychosomatique relationnelle
-False,HSS,4.0,Subscription,,Cairn,institut,Recherches familiales
-False,HSS,1.0,Subscription,,Cairn,association,RECMA
-False,HSS,3.0,Subscription,,Cairn,laboratoire,L'Espace géographique
-False,HSS,2.0,Subscription,,Cairn,institut,Agora Débats/Jeunesses
-False,ST,1.0,Gold APC,2779.0,Elsevier,association,Chemical Geology
-False,Health,2.0,Hybride,3190.0,Elsevier,association,Anaesthesia Critical Care & Pain Medicine
-False,Health,2.0,Hybride,2000.0,Elsevier,association,Anesthésie & Réanimation
-False,Health,2.0,Hybride,2350.0,Elsevier,association,Annales françaises d'oto-rhino-laryngologie et de pathologie cervico-faciale
-False,ST,1.0,Hybride,4350.0,Elsevier,association,Annals of Physical and Rehabilitation Medicine
-False,Health,1.0,Hybride,2000.0,Elsevier,association,Cahiers de Nutrition et de Diététique
-True,Health,1.0,Hybride,3250.0,Elsevier,association,Diagnostic and Interventional Imaging
-True,HSS,6.0,Hybride,3170.0,Elsevier,association,"European Annals of Otorhinolaryngology, Head and Neck Diseases"
-False,Health,3.0,Hybride,2630.0,Elsevier,association,Gynécologie Obstétrique Fertilité & Sénologie
-False,Health,1.0,Hybride,2600.0,Elsevier,association,International Orthodontics
-False,Health,1.0,Hybride,1780.0,Elsevier,association,Journal d'imagerie diagnostique et interventionnelle
-False,Health,1.0,Hybride,2580.0,Elsevier,association,Journal of Gynecology Obstetrics and Human Reproduction
-False,Health,1.0,Hybride,2360.0,Elsevier,association,La Revue de Médecine Légale
-False,Health,1.0,Hybride,1800.0,Elsevier,association,Médecine Nucléaire
-False,Health,1.0,Hybride,2600.0,Elsevier,association,Revue du Rhumatisme
-False,Health,1.0,Hybride,2000.0,Elsevier,association,Toxicologie Analytique et Clinique
-False,Health,2.0,Subscription,,Elsevier,association,Medecine et Maladies Infectieuses Formation
-False,HSS,1.0,Subscription,,Elsevier,association,Psychologie Française
-False,Health,1.0,Subscription,,Elsevier,association,Revue des Maladies Respiratoires
-True,HSS,1.0,Subscription,,OpenEdition,association,Economie rurale
-False,HSS,1.0,Diamond,,OpenEdition,laboratoire,"Amnis, Revue d’études des sociétés et cultures contemporaines Europe/Amérique"
-True,HSS,3.0,Diamond,,OpenEdition,association,Anthropologie & Santé
-False,HSS,1.0,Diamond,,OpenEdition,laboratoire,"Apparence(s), histoire et culture du paraître"
-False,HSS,1.0,Diamond,,OpenEdition,laboratoire,Appartenances & Altérités
-False,HSS,2.0,Diamond,,OpenEdition,laboratoire,Carnets de géographes
-True,HSS,2.0,Diamond,,OpenEdition,association,Cognitextes
-True,HSS,1.0,Diamond,,OpenEdition,laboratoire,Continents Manuscrits
-False,HSS,1.0,Diamond,,OpenEdition,association,Développement durable & territoires
-False,HSS,1.0,Diamond,,OpenEdition,laboratoire,Echogéo
-False,Health,2.0,Diamond,,OpenEdition,laboratoire,Face à face
-False,HSS,1.0,Diamond,,OpenEdition,laboratoire,"Genre, sexualité et société"
-False,HSS,1.0,Diamond,,OpenEdition,GIS,"IdeAs, Idées d'Amériques"
-False,HSS,2.0,Diamond,,OpenEdition,laboratoire,Images re-vues
-False,HSS,2.0,Diamond,,OpenEdition,association,Journal des Africanistes
-True,ST,5.0,Diamond,,OpenEdition,laboratoire,Mathématiques et sciences humaines
-False,HSS,1.0,Diamond,,OpenEdition,laboratoire,Nuevo mundo mundos nuevos
-False,HSS,1.0,Diamond,,OpenEdition,association,OEconomia
-False,HSS,1.0,Diamond,,OpenEdition,association,Transatlantica
-False,HSS,1.0,Diamond,,OpenEdition,association,XVII-XVIII
-True,HSS,2.0,Diamond,,OpenEdition,association,Artefact
-False,HSS,1.0,Diamond,,OpenEdition,association,Revue de géographie alpine
-True,Health,1.0,Hybride,2030.0,Elsevier,association,Journal de Chirurgie Viscérale
-False,Health,1.0,Gold APC,2190.0,BioMedCentral,association,Basic and Clinical Andrology
-False,ST,1.0,Gold APC,1690.0,BioMedCentral,laboratoire,Journal of Cannabis Research
-False,HSS,1.0,Hybride,2297.0,Brill,laboratoire,Cahiers de Linguistique Asie Orientale
-False,HSS,1.0,Hybride,2297.0,Brill,association,Erasmus Studies
-False,HSS,1.0,Subscription,,SAGE,laboratoire,Cahiers Élisabéthains: A Journal of English Renaissance Studies
-False,Health,1.0,Gold APC,1374.0,Elsevier,ministere,Journal of Infection and Public Health
-False,Health,1.0,Gold APC,2931.0,Elsevier,association,Virology
-False,Health,1.0,Hybride,3829.0,Elsevier,association,International Journal of Food Microbiology
-False,Health,1.0,Hybride,2510.0,Elsevier,association,Journal of Immunological Methods
-True,HSS,2.0,Subscription,,Cairn,association,"Revue interdisciplinaire sur le management, l'humanisme et l'entreprise"
-False,HSS,3.0,Subscription,,Cairn,laboratoire,"Travail, genre et sociétés"
-True,ST,6.0,Hybride,2969.0,Cambridge University Press,laboratoire,Le Journal de l’Institut de Mathématiques de Jussieu
-True,HSS,9.0,Subscription,,L'Harmattan,laboratoire,Collection Clinique et Changement Social
-False,HSS,2.0,Subscription,,OpenEdition,laboratoire,Corpus
-False,HSS,5.0,Diamond,,OpenEdition,laboratoire,Mappemonde
-False,HSS,1.0,Diamond,,OpenEdition,association,Revue d'anthropologie des connaissances
-False,HSS,4.0,Diamond,,OpenEdition,association,"Revue de la régulation, capitalisme, institutions, pouvoirs"
-True,HSS,3.0,Subscription,,Presse Universitaire de Vincennes,laboratoire,"Extrême Orient, Extrême Occident"
-False,ST,1.0,Hybride,2590.0,Springer Nature,association,European Physical Journal E (EPJE)
-False,HSS,6.0,Diamond,,Université Paris Cité,laboratoire,Arts of War and Peace
-True,HSS,6.0,Diamond,,Université Paris Cité,laboratoire,"cArgo, Revue Internationale d'Anthropologie culturelle & sociale"
-False,HSS,7.0,Diamond,,Université Paris Cité,ecole doctorale,Encyclo
-False,HSS,,Diamond,,Université Paris Cité,laboratoire,Journal de droit de la santé et de l'assurance maladie
-True,HSS,2.0,Diamond,,Universitetet i Sørøst-Norge,association,IARTEM e-journal
-True,HSS,5.0,Diamond,,Association thaêtre,association,Thaêtre
-True,HSS,3.0,Diamond,,EDP Sciences,association,Natures Sciences Sociétés
-False,ST,,Diamond,,OpenEdition,laboratoire,Revue d’ethnoécologie
-False,ST,1.0,Hybride,1330.0,Elsevier,association,Historia Mathematica
-False,ST,2.0,Hybride,2996.0,Elsevier,association,International Journal of Medical Informatics
-False,Health,3.0,Hybride,2896.0,Elsevier,association,Kidney International
-False,ST,1.0,Hybride,2289.0,Elsevier,association,Stochastic Processes and their Applications
-False,Health,1.0,Hybride,2580.0,Elsevier,association,Value in Health
-False,Health,1.0,Hybride,2716.0,Elsevier,association,JACC: Cardiovascular Interventions
-True,HSS,7.0,Diamond,,,laboratoire,Adjectif : analyses et recherches sur les TICE
+Health,3.0,Subscription,,Cairn,association,Bulletin de psychologie
+HSS,1.0,Subscription,,Cairn,association,Cliopsy
+HSS,1.0,Subscription,,Cairn,association,Les Etudes sociales
+HSS,3.0,Subscription,,Cairn,association,Migrations Société
+Health,1.0,Subscription,,Cairn,association,Psychosomatique relationnelle
+HSS,4.0,Subscription,,Cairn,institut,Recherches familiales
+HSS,1.0,Subscription,,Cairn,association,RECMA
+HSS,3.0,Subscription,,Cairn,laboratoire,L'Espace géographique
+HSS,2.0,Subscription,,Cairn,institut,Agora Débats/Jeunesses
+ST,1.0,Gold APC,2779.0,Elsevier,association,Chemical Geology
+Health,2.0,Hybride,3190.0,Elsevier,association,Anaesthesia Critical Care & Pain Medicine
+Health,2.0,Hybride,2000.0,Elsevier,association,Anesthésie & Réanimation
+Health,2.0,Hybride,2350.0,Elsevier,association,Annales françaises d'oto-rhino-laryngologie et de pathologie cervico-faciale
+ST,1.0,Hybride,4350.0,Elsevier,association,Annals of Physical and Rehabilitation Medicine
+Health,1.0,Hybride,2000.0,Elsevier,association,Cahiers de Nutrition et de Diététique
+Health,1.0,Hybride,3250.0,Elsevier,association,Diagnostic and Interventional Imaging
+HSS,6.0,Hybride,3170.0,Elsevier,association,"European Annals of Otorhinolaryngology, Head and Neck Diseases"
+Health,3.0,Hybride,2630.0,Elsevier,association,Gynécologie Obstétrique Fertilité & Sénologie
+Health,1.0,Hybride,2600.0,Elsevier,association,International Orthodontics
+Health,1.0,Hybride,1780.0,Elsevier,association,Journal d'imagerie diagnostique et interventionnelle
+Health,1.0,Hybride,2580.0,Elsevier,association,Journal of Gynecology Obstetrics and Human Reproduction
+Health,1.0,Hybride,2360.0,Elsevier,association,La Revue de Médecine Légale
+Health,1.0,Hybride,1800.0,Elsevier,association,Médecine Nucléaire
+Health,1.0,Hybride,2600.0,Elsevier,association,Revue du Rhumatisme
+Health,1.0,Hybride,2000.0,Elsevier,association,Toxicologie Analytique et Clinique
+Health,2.0,Subscription,,Elsevier,association,Medecine et Maladies Infectieuses Formation
+HSS,1.0,Subscription,,Elsevier,association,Psychologie Française
+Health,1.0,Subscription,,Elsevier,association,Revue des Maladies Respiratoires
+HSS,1.0,Subscription,,OpenEdition,association,Economie rurale
+HSS,1.0,Diamond,,OpenEdition,laboratoire,"Amnis, Revue d’études des sociétés et cultures contemporaines Europe/Amérique"
+HSS,3.0,Diamond,,OpenEdition,association,Anthropologie & Santé
+HSS,1.0,Diamond,,OpenEdition,laboratoire,"Apparence(s), histoire et culture du paraître"
+HSS,1.0,Diamond,,OpenEdition,laboratoire,Appartenances & Altérités
+HSS,2.0,Diamond,,OpenEdition,laboratoire,Carnets de géographes
+HSS,2.0,Diamond,,OpenEdition,association,Cognitextes
+HSS,1.0,Diamond,,OpenEdition,laboratoire,Continents Manuscrits
+HSS,1.0,Diamond,,OpenEdition,association,Développement durable & territoires
+HSS,1.0,Diamond,,OpenEdition,laboratoire,Echogéo
+Health,2.0,Diamond,,OpenEdition,laboratoire,Face à face
+HSS,1.0,Diamond,,OpenEdition,laboratoire,"Genre, sexualité et société"
+HSS,1.0,Diamond,,OpenEdition,GIS,"IdeAs, Idées d'Amériques"
+HSS,2.0,Diamond,,OpenEdition,laboratoire,Images re-vues
+HSS,2.0,Diamond,,OpenEdition,association,Journal des Africanistes
+ST,5.0,Diamond,,OpenEdition,laboratoire,Mathématiques et sciences humaines
+HSS,1.0,Diamond,,OpenEdition,laboratoire,Nuevo mundo mundos nuevos
+HSS,1.0,Diamond,,OpenEdition,association,OEconomia
+HSS,1.0,Diamond,,OpenEdition,association,Transatlantica
+HSS,1.0,Diamond,,OpenEdition,association,XVII-XVIII
+HSS,2.0,Diamond,,OpenEdition,association,Artefact
+HSS,1.0,Diamond,,OpenEdition,association,Revue de géographie alpine
+Health,1.0,Hybride,2030.0,Elsevier,association,Journal de Chirurgie Viscérale
+Health,1.0,Gold APC,2190.0,BioMedCentral,association,Basic and Clinical Andrology
+ST,1.0,Gold APC,1690.0,BioMedCentral,laboratoire,Journal of Cannabis Research
+HSS,1.0,Hybride,2297.0,Brill,laboratoire,Cahiers de Linguistique Asie Orientale
+HSS,1.0,Hybride,2297.0,Brill,association,Erasmus Studies
+HSS,1.0,Subscription,,SAGE,laboratoire,Cahiers Élisabéthains: A Journal of English Renaissance Studies
+Health,1.0,Gold APC,1374.0,Elsevier,ministere,Journal of Infection and Public Health
+Health,1.0,Gold APC,2931.0,Elsevier,association,Virology
+Health,1.0,Hybride,3829.0,Elsevier,association,International Journal of Food Microbiology
+Health,1.0,Hybride,2510.0,Elsevier,association,Journal of Immunological Methods
+HSS,2.0,Subscription,,Cairn,association,"Revue interdisciplinaire sur le management, l'humanisme et l'entreprise"
+HSS,3.0,Subscription,,Cairn,laboratoire,"Travail, genre et sociétés"
+ST,6.0,Hybride,2969.0,Cambridge University Press,laboratoire,Le Journal de l’Institut de Mathématiques de Jussieu
+HSS,9.0,Subscription,,L'Harmattan,laboratoire,Collection Clinique et Changement Social
+HSS,2.0,Subscription,,OpenEdition,laboratoire,Corpus
+HSS,5.0,Diamond,,OpenEdition,laboratoire,Mappemonde
+HSS,1.0,Diamond,,OpenEdition,association,Revue d'anthropologie des connaissances
+HSS,4.0,Diamond,,OpenEdition,association,"Revue de la régulation, capitalisme, institutions, pouvoirs"
+HSS,3.0,Subscription,,Presse Universitaire de Vincennes,laboratoire,"Extrême Orient, Extrême Occident"
+ST,1.0,Hybride,2590.0,Springer Nature,association,European Physical Journal E (EPJE)
+HSS,6.0,Diamond,,Université Paris Cité,laboratoire,Arts of War and Peace
+HSS,6.0,Diamond,,Université Paris Cité,laboratoire,"cArgo, Revue Internationale d'Anthropologie culturelle & sociale"
+HSS,7.0,Diamond,,Université Paris Cité,ecole doctorale,Encyclo
+HSS,,Diamond,,Université Paris Cité,laboratoire,Journal de droit de la santé et de l'assurance maladie
+HSS,2.0,Diamond,,Universitetet i Sørøst-Norge,association,IARTEM e-journal
+HSS,5.0,Diamond,,Association thaêtre,association,Thaêtre
+HSS,3.0,Diamond,,EDP Sciences,association,Natures Sciences Sociétés
+ST,,Diamond,,OpenEdition,laboratoire,Revue d’ethnoécologie
+ST,1.0,Hybride,1330.0,Elsevier,association,Historia Mathematica
+ST,2.0,Hybride,2996.0,Elsevier,association,International Journal of Medical Informatics
+Health,3.0,Hybride,2896.0,Elsevier,association,Kidney International
+ST,1.0,Hybride,2289.0,Elsevier,association,Stochastic Processes and their Applications
+Health,1.0,Hybride,2580.0,Elsevier,association,Value in Health
+Health,1.0,Hybride,2716.0,Elsevier,association,JACC: Cardiovascular Interventions
+HSS,7.0,Diamond,,Université Paris Cité,laboratoire,Adjectif : analyses et recherches sur les TICE
+HSS,18.0,Subscription,,Hermann,laboratoire,Cahier textuel

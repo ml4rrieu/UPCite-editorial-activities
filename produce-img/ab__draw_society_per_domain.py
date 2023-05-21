@@ -2,15 +2,8 @@ import pandas as pd, numpy as np
 import matplotlib, matplotlib.pyplot  as plt
 import my_functions
 
-df_raw = pd.read_csv("../2023-01-upcite-editorial-activities-data.csv")
 
-# ________________0____________ selection du corpus
-
-df_raw["reviewer_only"] = df_raw.apply(lambda row : my_functions.deduce_reviewer_only(row), axis = 1)
-
-# selection des revues : en activité et où le reviewing n'est pas la seule activités éditoriales
-mask = (df_raw["si inactif\ndate\ndernier \nnum"].isna()) & (~df_raw["reviewer_only"]) 
-df = df_raw[mask].copy()
+df = my_functions.load_corpus()
 
 
 ## ________________1____________ preparer les données
@@ -30,7 +23,7 @@ df["org_type"].replace(
         inplace = True
         )
 
-#print(df.org_type.value_counts())
+# print(df.org_type.value_counts())
 
 ## les publishers des revues avec org type
 # print(

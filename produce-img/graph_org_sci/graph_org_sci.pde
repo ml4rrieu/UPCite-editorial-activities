@@ -12,7 +12,7 @@ void setup() {
 
   // __0__ parse data to object instances
   table = loadTable("data-org-sci.csv", "header");
-  int nb_journals = table.getRowCount();
+  //int nb_journals = table.getRowCount();
 
   IntDict publishers = new IntDict(); 
 
@@ -22,8 +22,7 @@ void setup() {
       row.getString("model_eco"), 
       row.getString("org_type"), 
       row.getString("nb \npersonne"), 
-      row.getString("main_subject"), 
-      row.getString("editor\nin\nchief") 
+      row.getString("main_subject") 
       ));
 
     // calculer nb de journaux par publisher
@@ -51,10 +50,11 @@ void setup() {
 
   //println("\npublishers\n\n", publishers);
 
+// _____________________ répartition des publishers sur X : si des publishers manquent ou s'il reste bcp de place, changer le 170 
   // xspace met en relation nb de revue et espace sur x
   for (int i = 0; i < publishers.size(); i ++) {
     allxSpace.append(
-      map(i, 0, publishers.size(), 180, 1));
+      map(i, 0, publishers.size(), 170, 1));
   }
 
   // passer xspace en cumulatif
@@ -157,9 +157,7 @@ void setup() {
   text("ST", width - 70, margin*3/4);
 
 
-  for (Journal item : journals) item.draw(
-  
-  );
+  for (Journal item : journals) item.draw();
   save("../mapping-learned-societies.png");
 
   println("nb journals", journals.size());
@@ -183,13 +181,12 @@ class Journal {
   color c; 
 
 
-  Journal(String _publisher, String _modele, String _orgType, String _nbPers, String _field, String _eic) {
+  Journal(String _publisher, String _modele, String _orgType, String _nbPers, String _field) {
     publisher = _publisher ; 
     modeleEco = _modele ; 
     orgType = _orgType ;
     nbPers = _nbPers ; 
     field = _field ; 
-    eic = _eic ;
   }
 
   void draw() {

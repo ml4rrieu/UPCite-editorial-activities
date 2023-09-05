@@ -12,7 +12,12 @@ tips = sns.load_dataset("tips")
 
 ## ____load corpus
 df = my_functions.load_corpus()
-# print("columns", df.columns)
+
+print(
+    df["APC \nmontant\n€"].describe(), '\n\n'
+    )
+
+exit()
 
 # retrait des valeurs de modele_co Diamond & Subscription
 df.replace("Subscription", np.nan, inplace = True)

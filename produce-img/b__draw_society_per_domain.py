@@ -11,7 +11,7 @@ df = my_functions.load_corpus()
 df[["org_type", "org_name"]] = df["orga. \nscientifique"].str.split(pat = ":", expand = True)
 df["org_type"] = df["org_type"].str.strip() 
 
-#print(df.org_type.value_counts())
+print(df.org_type.value_counts())
 
 # reduire la typologie
 df["org_type"].replace(

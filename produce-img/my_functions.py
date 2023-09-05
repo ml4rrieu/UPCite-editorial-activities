@@ -36,7 +36,7 @@ def deduce_reviewer_only(row) :
         return False
 
     # séparer les autres activités
-    other_activities = str(row["Autres liens\navec UPC"]).lower().split(";") 
+    other_activities = str(row["Autres liens\navec UPCite"]).lower().split(";") 
     
     # identifier les revues où la seule activitée est reviewer
     if other_activities : 

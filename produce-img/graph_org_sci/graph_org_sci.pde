@@ -50,11 +50,12 @@ void setup() {
 
   //println("\npublishers\n\n", publishers);
 
-// _____________________ répartition des publishers sur X : si des publishers manquent ou s'il reste bcp de place, changer le 170 
+
+// PARAM___ répartition des publishers sur X : si des publishers manquent ou s'il reste bcp de place, changer le 170 
   // xspace met en relation nb de revue et espace sur x
   for (int i = 0; i < publishers.size(); i ++) {
     allxSpace.append(
-      map(i, 0, publishers.size(), 170, 1));
+      map(i, 0, publishers.size(), 160, 1));
   }
 
   // passer xspace en cumulatif

@@ -4,7 +4,13 @@ import my_functions
 
 df = my_functions.load_corpus()
 # print("columns", df.columns)
+# [""]
 
+print(
+    df[ df["model_eco"] == "S2O"]["Publishers\n/Plateformes"].value_counts()
+    )
+
+exit()
 
 ## _____________n_________ preparer les données
 

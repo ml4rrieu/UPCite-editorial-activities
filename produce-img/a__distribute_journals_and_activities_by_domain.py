@@ -7,9 +7,6 @@ df = my_functions.load_corpus()
 # print("columns", df.columns)
 
 
-print( df["Autres liens\navec UPC"].value_counts())
-
-
 ## ________1___________ graph pie nb journals by domain
 
 # répartir les revues par domaines, renommer la colonne de sortie "amount"
@@ -47,19 +44,19 @@ plt.savefig("pie-journals-by-domain.png")
 
 ### ______2.1_____________  hist des activités EiC et Editorial board by domain
 """
-faire un graph qui répartie les activités par disciplines, où EiC prévault sur les autres
-objectif : voir si les EiC varient pas discipline
+faire un graph qui répartit les activités par disciplines, où EiC prévault sur les autres.
+objectif : voir la variation d'EiC par discipline
 """
 print("nb revue avec EiC", len(df[df["editor\nin\nchief"] == True]))
 
 df_hist = pd.DataFrame( df.groupby(["main_subject"])
 [["editor\nin\nchief"]].agg(["count", "sum"])).reset_index()
 
-## le goupeby effectue une répartition sur deux niveaux, re nommer les colonnes après traitement pour plus de lisibilité
+## le goupeby effectue une répartition sur deux niveaux
+## re nommer les colonnes après traitement pour plus de lisibilité
 df_hist.columns = ["main_subject", "nb_journal", "eic"]
 
 df_hist["no_eic"] = df_hist["nb_journal"] - df_hist["eic"]
-
 
 print(df_hist)
 

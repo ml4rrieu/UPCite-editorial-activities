@@ -1,9 +1,5 @@
-# This CITATION.cff file was generated with cffinit.
-# Visit https://bit.ly/cffinit to generate yours today!
-
 cff-version: 1.2.0
-title: >-
-  Scripts used for Université Paris Cité editorial activities
+title: "Scripts used for Université Paris Cité editorial activities"
 message: >-
   If you use this software, please cite it using the
   metadata from this file.
@@ -15,7 +11,8 @@ authors:
     affiliation: 'Université Paris Cité'
     orcid: 'https://orcid.org/0000-0002-1834-3007'
 repository-code: >-
-  https://github.com/ml4rrieu/UPCite-editorial-activities-2022
+  https://github.com/ml4rrieu/UPCite-editorial-activities
+date-released: 2023-09-01
 abstract: >-
   the repository contains some script in python used to read
   the data and produce the images. Data are tabular, with

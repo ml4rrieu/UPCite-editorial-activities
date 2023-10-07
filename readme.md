@@ -7,15 +7,17 @@ In the context of the new publishing platform, [OPUS](https://opus.u-paris.fr), 
 <br />
 <br />
 
-* The results and the method based on [OpenEditors](https://openeditors.ooir.org/) are online : [2022-UPCite-editorial-activities](https://ml4rrieu.github.io/slides/2023-UPCite-editorial-activities.html)
+* See the results & methods (based on [OpenEditors](https://openeditors.ooir.org/)) as a presentation [2022-UPCite-editorial-activities](https://ml4rrieu.github.io/slides/2023-UPCite-editorial-activities.html)
 
-* See the data [2023-05-upcite-editorial-activities-data.csv](./2023-05-upcite-editorial-activities-data.csv)
+* See the paper in french [https://doi.org/10.53480/LUOJ2939](https://doi.org/10.53480/LUOJ2939)
+
+* The data [https://doi.org/10.57745/QYIAWX](https://doi.org/10.57745/QYIAWX)
+
 
 
 <br />
 <br />
 
-
-[![mapping journals, org. scientific, disciplines and OA model](./produce-img/mapping-learned-societies.png)](https://ml4rrieu.github.io/slides/2022-UPCite-editorial-activities.html)
+[![Where the researchers work](./produce-img/hist-journals-by-publisher.png)](https://github.com/ml4rrieu/UPCite-editorial-activities/blob/main/produce-img/hist-journals-by-publisher.png)
 
 
